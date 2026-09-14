@@ -44,9 +44,10 @@
 - RF04. Permitir **registrar um agendamento**, associando cliente, profissional, procedimento, data e horário.
 - RF05. Impedir a criação de um agendamento em um horário que já esteja ocupado para o mesmo profissional (evitar conflito de horários).
 - RF06. Calcular automaticamente o horário de término do agendamento com base na duração do procedimento escolhido.
-- RF07. Permitir **consultar a agenda** (por dia, por profissional) para saber quais horários estão livres — substituindo a necessidade de o cliente ir até o salão perguntar pessoalmente.
-- RF08. Permitir **cancelar ou remarcar** um agendamento existente.
-- RF09. Permitir consultar o histórico de atendimentos de um cliente.
+- RF07. **Impedir que um novo agendamento sobreponha ou substitua um horário já marcado** de outro cliente. 
+- RF08. Permitir **consultar a agenda** (por dia, por profissional) para saber quais horários estão livres — substituindo a necessidade de o cliente ir até o salão perguntar pessoalmente.
+- RF09. Permitir **cancelar ou remarcar** um agendamento existente.
+- RF010. Permitir consultar o histórico de atendimentos de um cliente.
   
 ### 3.2 Requisitos Não Funcionais
  
