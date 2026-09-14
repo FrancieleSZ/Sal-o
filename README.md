@@ -38,8 +38,6 @@
  
 ### 3.1 Requisitos Funcionais
  
-*(Elaborados a partir dos processos e problemas relatados na entrevista — o sistema deve:)*
- 
 - RF01. Permitir **cadastrar clientes**, com dados básicos de contato.
 - RF02. Permitir **cadastrar procedimentos** oferecidos pelo salão, incluindo a duração estimada de cada um.
 - RF03. Permitir **cadastrar os profissionais** do salão e sua especialidade/disponibilidade.
@@ -49,18 +47,14 @@
 - RF07. Permitir **consultar a agenda** (por dia, por profissional) para saber quais horários estão livres — substituindo a necessidade de o cliente ir até o salão perguntar pessoalmente.
 - RF08. Permitir **cancelar ou remarcar** um agendamento existente.
 - RF09. Permitir consultar o histórico de atendimentos de um cliente.
+  
 ### 3.2 Requisitos Não Funcionais
- 
-*(As perguntas de entrevista sobre desempenho, segurança, usabilidade e disponibilidade não foram respondidas no levantamento de campo — o grupo deve voltar à organização para confirmá-las. Como ponto de partida, propõe-se:)*
  
 - RNF01. **Usabilidade:** interface simples, já que os usuários (profissionais do salão) não necessariamente têm familiaridade avançada com tecnologia — a lógica deve ser tão rápida quanto anotar no caderno.
 - RNF02. **Desempenho:** a consulta de horários disponíveis deve responder rapidamente em horários de pico, quando o salão está cheio e o tempo do profissional é escasso.
 - RNF03. **Segurança/privacidade:** dados de contato dos clientes (telefone) devem ser protegidos e não expostos publicamente.
 - RNF04. **Disponibilidade:** o sistema deve estar acessível durante o horário de funcionamento do salão, e idealmente também fora dele, para permitir que clientes consultem/solicitem horários remotamente.
 - RNF05. **Confiabilidade:** o sistema deve evitar conflitos de agenda (dois clientes no mesmo horário/profissional), já que isso é a maior fonte de problema com o caderno.
->  **Pendência a confirmar com a organização:** os requisitos não funcionais acima são uma proposta inicial do grupo; é necessário validar com a Alaide (responsável) se há exigências específicas de desempenho, sigilo de dados ou disponibilidade.
- 
----
  
 ## 4. Regras de Negócio
  
